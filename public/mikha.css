@@ -1,0 +1,125 @@
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.landingPage {
+    background-color: rgb(239, 246, 252);
+    display: flex;
+    align-items: center;
+
+}
+
+.l-left {
+    margin: 24px 0;
+    padding: 8px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-right {
+    box-sizing: border-box;
+    flex: 1;
+    float: left;
+    padding-right: 50px;
+}
+
+p {
+    text-align: justify;
+    color: rgb(86, 85, 85);
+}
+
+h3 {
+    font-weight: 600;
+    color: #005a9e;
+
+}
+
+h4 {
+    font-weight: 400;
+    color: #107c10;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.workflow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.scheduling {
+    display: flex;
+    margin: 24px 0;
+}
+
+.l-schedule {
+    flex: 1;
+}
+
+.r-schedule {
+    flex: 2;
+    padding: 0px 50px;
+}
+
+.verification {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.l-verification {
+    flex: 1;
+    padding-right: 30px;
+    margin: 24px 0px;
+
+}
+
+.m-verification {
+    flex: 1;
+    padding-right: 30px;
+    margin: 24px 0px;
+
+}
+
+.r-verification {
+    flex: 1;
+    margin: 24px 0px;
+
+}
+
+.info {
+    display: flex;
+}
+
+.call {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.capture {
+    flex: 1;
+}
+
+
+
+.configuration {
+    display: flex;
+    margin: 24px 0;
+}
+
+.l-configuration {
+    flex: 1;
+}
+
+.r-configuration {
+    flex: 1;
+    padding: 0px 50px;
+}
